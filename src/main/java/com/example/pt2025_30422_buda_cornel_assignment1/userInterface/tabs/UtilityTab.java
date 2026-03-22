@@ -76,6 +76,7 @@ public class UtilityTab extends VBox {
         over40.sort(Comparator.comparingInt(EmployeeDurationRow::getWorkDuration));
         return over40;
     }
+    
 
     private List<String> buildStringsFromRows(List<EmployeeDurationRow> rows) {
         List<String> result = new ArrayList<>();
